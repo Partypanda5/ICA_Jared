@@ -54,10 +54,13 @@ body
 {
     position: relative;
     display: none;
-    width: 50vw;
+    width: 40vw;
     height: 100vh;
-    left: 50vw;
-    background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgb(240, 222, 194) 30%);
+    left: 70vw;
+    background-image: url("../assets/images/newspaper-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     z-index: 9999;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -68,7 +71,7 @@ body
     position: relative;
     color: black;
     top: 10%;
-    right: 5%;
+    right: 30%;
     text-align: center;
   }
 
@@ -85,7 +88,7 @@ body
     color: black;
     font-family: 'Cinzel', serif;
     font-weight: 500;
-    font-size: 18;
+    font-size: 20;
   }
 
   .travel
@@ -101,7 +104,7 @@ body
   {
       width: 100%;
       height: auto;
-      margin-top: 20vh;
+      margin-top: 15vh;
   }
 
   #more 
